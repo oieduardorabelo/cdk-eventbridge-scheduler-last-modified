@@ -19,3 +19,5 @@ If the header value is older than the specified number of days, a property `expi
 If the header is not older than the specified number of days, the property `expired` is not added to the payload object and is saved to DynamoDB.
 
 ### Final architecture:
+
+![](./docs/diagram.png)
